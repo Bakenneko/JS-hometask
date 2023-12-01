@@ -22,8 +22,6 @@ export class EpmChipsComponent {
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { CommonModule, NgOptimizedImage } from '@angular/common';
 
-import { INTEREST_CHIPS_NAMES } from '../../../app.config';
-
 @Component({
   selector: 'epm-chips',
   standalone: true,
